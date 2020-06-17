@@ -2,6 +2,9 @@
 #distuils: sources = ParOpt.c
 from __future__ import print_function, division
 
+# import exit function
+from sys import exit
+
 # For the use of MPI
 from mpi4py.MPI cimport *
 cimport mpi4py.MPI as MPI
